@@ -19,6 +19,14 @@ body {
   color: $dark-800;
 }
 
+.main {
+  margin-top: 158px;
+
+  @include mobile-l {
+    margin-top: 75px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -218,6 +226,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 10;
+  top: 0;
 
   &__nav {
     @include fb-sb-c;
@@ -718,10 +727,5 @@ body {
 .header.fixed {
   img {
     filter: invert(1);
-  }
-
-  &~main {
-    margin-top: 158px;
-
   }
 }

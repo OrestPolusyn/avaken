@@ -66,6 +66,16 @@ body {
   color: #252525;
 }
 
+.main {
+  margin-top: 158px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 75px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -289,6 +299,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 10;
+  top: 0;
 }
 
 .header__nav {
@@ -924,9 +935,5 @@ body {
 .header.fixed img {
   -webkit-filter: invert(1);
           filter: invert(1);
-}
-
-.header.fixed ~ main {
-  margin-top: 158px;
 }
 /*# sourceMappingURL=styles.css.map */
