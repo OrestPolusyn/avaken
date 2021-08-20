@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Avaken landing page</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo-white.svg" alt="Logo Avaken landing page" width="204"> </a>
+
+        <button class="menu">
+          <span class="sr-only">Menu</span>
+          <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="3" fill="white" />
+            <rect x="6" y="8" width="18" height="3" fill="white" />
+            <rect y="16" width="24" height="3" fill="white" />
+          </svg>
+
+        </button>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a class="header__link" href="#">
+              Home
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">
+              About
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">
+              Services
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">
+              News
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="carousel">
+
+        <div class="carousel__wrapper">
+          <div class="carousel__swiper mySwiper">
+
+            <ul class="swiper-wrapper">
+
+              <li class="swiper-slide">
+                <img class="" src="images/table-laptop.jpg" alt="Table with laptop and lamp" width="600">
+              </li>
+
+              <li class="swiper-slide">
+                <img class="" src="images/table-laptop.jpg" alt="Table with laptop and lamp" width="600">
+              </li>
+
+              <li class="swiper-slide">
+                <img class="" src="images/table-laptop.jpg" alt="Table with laptop and lamp" width="600">
+              </li>
+            </ul>
+
+            <div class="carousel__btns">
+              <button class="carousel__btn swiper-button-next" type="button">
+                <span class="sr-only">next</span>
+                <svg width="20" height="18" viewBox="0 0 20 18" ">
+             <path
+               d=" M10.3661 0.376577C10.8543 -0.125526 11.6457 -0.125526 12.1339 0.376577L19.6339 8.09086C19.8683
+                  8.33198 20 8.65901 20 9C20 9.34099 19.8683 9.66802 19.6339 9.90914L12.1339 17.6234C11.6457 18.1255
+                  10.8543 18.1255 10.3661 17.6234C9.87796 17.1213 9.87796 16.3073 10.3661 15.8051L15.7322 10.2857L1.25
+                  10.2857C0.559644 10.2857 0 9.71008 0 9C0 8.28992 0.559644 7.71429 1.25 7.71429L15.7322 7.71429L10.3661
+                  2.19485C9.87796 1.69275 9.87796 0.87868 10.3661 0.376577Z" fill="#252525" />
+                </svg>
+
+
+
+              </button>
+              <button class="carousel__btn swiper-button-prev" type="button">
+                <span class="sr-only">prev</span>
+                <svg width="20" height="18" viewBox="0 0 20 18">
+                  <path
+                    d="M9.63388 0.376577C9.14573 -0.125526 8.35427 -0.125526 7.86612 0.376577L0.366117 8.09086C0.131697 8.33198 0 8.65901 0 9C0 9.34099 0.131697 9.66802 0.366117 9.90914L7.86612 17.6234C8.35427 18.1255 9.14573 18.1255 9.63388 17.6234C10.122 17.1213 10.122 16.3073 9.63388 15.8051L4.26777 10.2857L18.75 10.2857C19.4404 10.2857 20 9.71008 20 9C20 8.28992 19.4404 7.71429 18.75 7.71429L4.26777 7.71429L9.63388 2.19485C10.122 1.69275 10.122 0.87868 9.63388 0.376577Z"
+                    fill="#252525" />
+                </svg>
+              </button>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel__inner">
+          <h1 class="carousel__title">Let’s build something great!</h1>
+          <a class="click" href="#">
+            Learn More
+            <svg viewBox="0 0 11 11">
+              <path
+                d="M5.70136 0.709209C5.96985 0.430264 6.40515 0.430264 6.67364 0.709209L10.7986 4.99492C10.9276 5.12888 11 5.31056 11 5.5C11 5.68944 10.9276 5.87112 10.7986 6.00508L6.67364 10.2908C6.40515 10.5697 5.96985 10.5697 5.70136 10.2908C5.43288 10.0118 5.43288 9.55958 5.70136 9.28064L8.65273 6.21429L0.6875 6.21429C0.307804 6.21429 0 5.89449 0 5.5C0 5.10551 0.307804 4.78572 0.6875 4.78572L8.65273 4.78572L5.70136 1.71936C5.43288 1.44042 5.43288 0.988155 5.70136 0.709209Z" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <section class="services">
+
+        <span class="slogan">Services</span>
+
+        <div class="services__inner">
+          <h2 class="title services__title">
+            Full-service digital capabilities from end to end.
+          </h2>
+
+          <a class="click click--transparent" href="#">
+            See all services
+            <svg viewBox="0 0 11 11">
+              <path
+                d="M5.70136 0.709209C5.96985 0.430264 6.40515 0.430264 6.67364 0.709209L10.7986 4.99492C10.9276 5.12888 11 5.31056 11 5.5C11 5.68944 10.9276 5.87112 10.7986 6.00508L6.67364 10.2908C6.40515 10.5697 5.96985 10.5697 5.70136 10.2908C5.43288 10.0118 5.43288 9.55958 5.70136 9.28064L8.65273 6.21429L0.6875 6.21429C0.307804 6.21429 0 5.89449 0 5.5C0 5.10551 0.307804 4.78572 0.6875 4.78572L8.65273 4.78572L5.70136 1.71936C5.43288 1.44042 5.43288 0.988155 5.70136 0.709209Z" />
+            </svg>
+          </a>
+
+        </div>
+
+        <div class="services__articles">
+
+          <article class="article">
+
+            <span class="article__slogan">Experiences</span>
+            <h3 class="article__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius.</h3>
+            <p class="article__text text">
+              Molestie facilisis sit nisl imperdiet nunc, enim sed a. Mi ac ut arcu
+              sollicitudin pellentesque. </p>
+            <a class="article__link" href="#">
+              <span class="sr-only">Plus</span>
+
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-inside-1" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11 23.5C11 24.3284 11.6716 25 12.5 25C13.3284 25 14 24.3284 14 23.5V14H23.5C24.3284 14 25 13.3284 25 12.5C25 11.6716 24.3284 11 23.5 11H14V1.5C14 0.671573 13.3284 0 12.5 0C11.6716 0 11 0.671573 11 1.5V11H1.5C0.671573 11 0 11.6716 0 12.5C0 13.3284 0.671573 14 1.5 14H11V23.5Z" />
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11 23.5C11 24.3284 11.6716 25 12.5 25C13.3284 25 14 24.3284 14 23.5V14H23.5C24.3284 14 25 13.3284 25 12.5C25 11.6716 24.3284 11 23.5 11H14V1.5C14 0.671573 13.3284 0 12.5 0C11.6716 0 11 0.671573 11 1.5V11H1.5C0.671573 11 0 11.6716 0 12.5C0 13.3284 0.671573 14 1.5 14H11V23.5Z"
+                  fill="#252525" />
+                <path
+                  d="M14 14V12H12V14H14ZM14 11H12V13H14V11ZM11 11V13H13V11H11ZM11 14H13V12H11V14ZM12.5 23C12.7761 23 13 23.2239 13 23.5H9C9 25.433 10.567 27 12.5 27V23ZM12 23.5C12 23.2239 12.2239 23 12.5 23V27C14.433 27 16 25.433 16 23.5H12ZM12 14V23.5H16V14H12ZM23.5 12H14V16H23.5V12ZM23 12.5C23 12.2239 23.2239 12 23.5 12V16C25.433 16 27 14.433 27 12.5H23ZM23.5 13C23.2239 13 23 12.7761 23 12.5H27C27 10.567 25.433 9 23.5 9V13ZM14 13H23.5V9H14V13ZM12 1.5V11H16V1.5H12ZM12.5 2C12.2239 2 12 1.77614 12 1.5H16C16 -0.432996 14.433 -2 12.5 -2V2ZM13 1.5C13 1.77614 12.7761 2 12.5 2V-2C10.567 -2 9 -0.432996 9 1.5H13ZM13 11V1.5H9V11H13ZM1.5 13H11V9H1.5V13ZM2 12.5C2 12.7761 1.77614 13 1.5 13V9C-0.432996 9 -2 10.567 -2 12.5H2ZM1.5 12C1.77614 12 2 12.2239 2 12.5H-2C-2 14.433 -0.432996 16 1.5 16V12ZM11 12H1.5V16H11V12ZM13 23.5V14H9V23.5H13Z"
+                  fill="#252525" mask="url(#path-1-inside-1)" />
+              </svg>
+
+            </a>
+          </article>
+
+
+          <article class="article">
+
+            <span class="article__slogan">Campaigns</span>
+            <h3 class="article__title">Cras sit cras eget interdum. Suspendisse nibh mattis non fames sit.</h3>
+            <p class="article__text text">
+              Erat in ut nunc, morbi dictumst et lectus ligula enim. Porta porta nibh purus ac sit morbi et.</p>
+            <a class="article__link" href="#">
+              <span class="sr-only">Plus</span>
+
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-inside-1" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11 23.5C11 24.3284 11.6716 25 12.5 25C13.3284 25 14 24.3284 14 23.5V14H23.5C24.3284 14 25 13.3284 25 12.5C25 11.6716 24.3284 11 23.5 11H14V1.5C14 0.671573 13.3284 0 12.5 0C11.6716 0 11 0.671573 11 1.5V11H1.5C0.671573 11 0 11.6716 0 12.5C0 13.3284 0.671573 14 1.5 14H11V23.5Z" />
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11 23.5C11 24.3284 11.6716 25 12.5 25C13.3284 25 14 24.3284 14 23.5V14H23.5C24.3284 14 25 13.3284 25 12.5C25 11.6716 24.3284 11 23.5 11H14V1.5C14 0.671573 13.3284 0 12.5 0C11.6716 0 11 0.671573 11 1.5V11H1.5C0.671573 11 0 11.6716 0 12.5C0 13.3284 0.671573 14 1.5 14H11V23.5Z"
+                  fill="#252525" />
+                <path
+                  d="M14 14V12H12V14H14ZM14 11H12V13H14V11ZM11 11V13H13V11H11ZM11 14H13V12H11V14ZM12.5 23C12.7761 23 13 23.2239 13 23.5H9C9 25.433 10.567 27 12.5 27V23ZM12 23.5C12 23.2239 12.2239 23 12.5 23V27C14.433 27 16 25.433 16 23.5H12ZM12 14V23.5H16V14H12ZM23.5 12H14V16H23.5V12ZM23 12.5C23 12.2239 23.2239 12 23.5 12V16C25.433 16 27 14.433 27 12.5H23ZM23.5 13C23.2239 13 23 12.7761 23 12.5H27C27 10.567 25.433 9 23.5 9V13ZM14 13H23.5V9H14V13ZM12 1.5V11H16V1.5H12ZM12.5 2C12.2239 2 12 1.77614 12 1.5H16C16 -0.432996 14.433 -2 12.5 -2V2ZM13 1.5C13 1.77614 12.7761 2 12.5 2V-2C10.567 -2 9 -0.432996 9 1.5H13ZM13 11V1.5H9V11H13ZM1.5 13H11V9H1.5V13ZM2 12.5C2 12.7761 1.77614 13 1.5 13V9C-0.432996 9 -2 10.567 -2 12.5H2ZM1.5 12C1.77614 12 2 12.2239 2 12.5H-2C-2 14.433 -0.432996 16 1.5 16V12ZM11 12H1.5V16H11V12ZM13 23.5V14H9V23.5H13Z"
+                  fill="#252525" mask="url(#path-1-inside-1)" />
+              </svg>
+
+            </a>
+          </article>
+
+          <article class="article">
+
+            <span class="article__slogan">Studio</span>
+            <h3 class="article__title">Mattis amet tincidunt sem morbi lacus blandit donec arcu dolor.</h3>
+            <p class="article__text text">
+              Bibendum molestie tellus maecenas eget. Risus aenean vestibulum id porttitor mattis.</p>
+            <a class="article__link" href="#">
+              <span class="sr-only">Plus</span>
+
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-inside-1" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11 23.5C11 24.3284 11.6716 25 12.5 25C13.3284 25 14 24.3284 14 23.5V14H23.5C24.3284 14 25 13.3284 25 12.5C25 11.6716 24.3284 11 23.5 11H14V1.5C14 0.671573 13.3284 0 12.5 0C11.6716 0 11 0.671573 11 1.5V11H1.5C0.671573 11 0 11.6716 0 12.5C0 13.3284 0.671573 14 1.5 14H11V23.5Z" />
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11 23.5C11 24.3284 11.6716 25 12.5 25C13.3284 25 14 24.3284 14 23.5V14H23.5C24.3284 14 25 13.3284 25 12.5C25 11.6716 24.3284 11 23.5 11H14V1.5C14 0.671573 13.3284 0 12.5 0C11.6716 0 11 0.671573 11 1.5V11H1.5C0.671573 11 0 11.6716 0 12.5C0 13.3284 0.671573 14 1.5 14H11V23.5Z"
+                  fill="#252525" />
+                <path
+                  d="M14 14V12H12V14H14ZM14 11H12V13H14V11ZM11 11V13H13V11H11ZM11 14H13V12H11V14ZM12.5 23C12.7761 23 13 23.2239 13 23.5H9C9 25.433 10.567 27 12.5 27V23ZM12 23.5C12 23.2239 12.2239 23 12.5 23V27C14.433 27 16 25.433 16 23.5H12ZM12 14V23.5H16V14H12ZM23.5 12H14V16H23.5V12ZM23 12.5C23 12.2239 23.2239 12 23.5 12V16C25.433 16 27 14.433 27 12.5H23ZM23.5 13C23.2239 13 23 12.7761 23 12.5H27C27 10.567 25.433 9 23.5 9V13ZM14 13H23.5V9H14V13ZM12 1.5V11H16V1.5H12ZM12.5 2C12.2239 2 12 1.77614 12 1.5H16C16 -0.432996 14.433 -2 12.5 -2V2ZM13 1.5C13 1.77614 12.7761 2 12.5 2V-2C10.567 -2 9 -0.432996 9 1.5H13ZM13 11V1.5H9V11H13ZM1.5 13H11V9H1.5V13ZM2 12.5C2 12.7761 1.77614 13 1.5 13V9C-0.432996 9 -2 10.567 -2 12.5H2ZM1.5 12C1.77614 12 2 12.2239 2 12.5H-2C-2 14.433 -0.432996 16 1.5 16V12ZM11 12H1.5V16H11V12ZM13 23.5V14H9V23.5H13Z"
+                  fill="#252525" mask="url(#path-1-inside-1)" />
+              </svg>
+
+            </a>
+          </article>
+        </div>
+
+
+      </section>
+
+      <section class="about">
+        <span class="slogan">About us</span>
+        <div class="about__inner">
+          <h2 class="title">
+            Sit bibendum id proin felis auctor erat ac.
+          </h2>
+
+          <div class="about__box">
+
+            <p class="about__text text">Aliquam egestas hac morbi eu. Eros, elit est diam mattis laoreet faucibus
+              lectus.
+              Cursus sed tellus augue morbi pulvinar. Consequat nisi, integer potenti consectetur. Sed leo massa morbi
+              iaculis viverra.
+            </p>
+
+            <a class="click click--transparent" href="#">
+              Read more
+              <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.70136 0.709209C5.96985 0.430264 6.40515 0.430264 6.67364 0.709209L10.7986 4.99492C10.9276 5.12888 11 5.31056 11 5.5C11 5.68944 10.9276 5.87112 10.7986 6.00508L6.67364 10.2908C6.40515 10.5697 5.96985 10.5697 5.70136 10.2908C5.43288 10.0118 5.43288 9.55958 5.70136 9.28064L8.65273 6.21429L0.6875 6.21429C0.307804 6.21429 0 5.89449 0 5.5C0 5.10551 0.307804 4.78572 0.6875 4.78572L8.65273 4.78572L5.70136 1.71936C5.43288 1.44042 5.43288 0.988155 5.70136 0.709209Z"
+                  fill="#252525" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="about__form">
+          <div class="about__wrapper">
+            <img class="about__img" src="images/office.jpeg" alt="Office Avaken" width="600">
+          </div>
+
+          <form class="form" action="#">
+            <h3 class="form__title">
+              Write Me.
+            </h3>
+            <p class=" form__text text">
+              Sit et vulputate posuere id diam ac eget lacinia enim. Id congue sapien libero sed. Aliquet amet eget
+              placerat facilisis
+              leo, sit consequat.
+            </p>
+
+            <div class="form__box">
+              <label class="form__name">
+                Full Name
+                <input class="form__area" type="text" name="Name" required></label>
+
+              <label class="form__name">
+                Phone
+                <input class="form__area" type="tel" name="Phone" required></label>
+            </div>
+
+            <label class="form__name">
+              Email Address
+              <input class="form__area" type="email" name="Email" required>
+            </label>
+
+            <label class="form__name">
+              Message
+              <textarea class="form__area form__area--message" name="Message" required></textarea>
+            </label>
+
+            <button class="click">
+              Send message
+              <svg width="11" height="11" viewBox="0 0 11 11">
+                <path
+                  d="M5.70136 0.709209C5.96985 0.430264 6.40515 0.430264 6.67364 0.709209L10.7986 4.99492C10.9276 5.12888 11 5.31056 11 5.5C11 5.68944 10.9276 5.87112 10.7986 6.00508L6.67364 10.2908C6.40515 10.5697 5.96985 10.5697 5.70136 10.2908C5.43288 10.0118 5.43288 9.55958 5.70136 9.28064L8.65273 6.21429L0.6875 6.21429C0.307804 6.21429 0 5.89449 0 5.5C0 5.10551 0.307804 4.78572 0.6875 4.78572L8.65273 4.78572L5.70136 1.71936C5.43288 1.44042 5.43288 0.988155 5.70136 0.709209Z"
+                  fill="white" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

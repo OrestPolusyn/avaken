@@ -1,0 +1,29 @@
+@mixin fb-sb-c {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+@mixin fb-sb{
+   display: flex;
+   justify-content: space-between;
+}
+
+@mixin tablet {
+  @media (max-width:992px) {
+    @content;
+  }
+}
+
+@mixin mobile-l {
+  @media (max-width:768px) {
+    @content;
+  }
+}
+
+@mixin mobile-m {
+  @media (max-width:576px) {
+    @content;
+  }
+}
+
